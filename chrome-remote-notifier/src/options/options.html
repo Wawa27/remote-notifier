@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Remote notifier options</title>
+  <link href='../../dist/output.css' rel='stylesheet'>
+</head>
+<body class='bg-zinc-900 px-8'>
+<section class='my-8'>
+  <h1 class='text-2xl text-white font-semibold tracking-wide'>Remote notifier settings</h1>
+</section>
+<div class='w-96'>
+  <label for='websocketHost' class='block text-sm font-medium text-gray-400'>Websocket host</label>
+  <div class='mt-1 relative rounded-md shadow-sm'>
+    <input type='text' name='websocketHost' id='websocketHost'
+           class='focus:ring-purple-500 focus:border-indigo-500 block w-full px-2 pr-12 sm:text-sm border-gray-300 rounded-md'
+           placeholder='ws://localhost:8080'>
+  </div>
+</div>
+<div class='mt-8'>
+  <button id='save' class='px-8 py-1 bg-slate-400 rounded-md tracking-wide font-semibold'>
+    Save
+  </button>
+</div>
+<script src='options.js'></script>
+</body>
+</html>

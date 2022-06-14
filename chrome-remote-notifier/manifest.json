@@ -1,0 +1,14 @@
+{
+  "name": "Chrome remote notifier",
+  "description": "Send remote notifications",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "src/background/background.js"
+  },
+  "options_page": "src/options/options.html",
+  "permissions": ["notifications", "storage"],
+  "action": {
+    "default_popup": "src/popup/popup.html"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "chrome-remote-notifier",
+  "version": "1.0.0",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i src/css/input.css -o ./dist/output.css --watch"
+  }
+}
